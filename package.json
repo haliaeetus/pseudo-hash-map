@@ -1,0 +1,33 @@
+{
+  "name": "pseudo-hash-map",
+  "version": "1.0.0",
+  "description": "Javascript map with support for non-primitive keys (i.e. tuple-like arrays, etc.) through pseudo-hashing (serialisation)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haliaeetus/serialised-key-map.git"
+  },
+  "keywords": [
+    "array",
+    "key",
+    "map",
+    "serialised key",
+    "pseudo hashmap",
+    "hashmap",
+    "hashtable",
+    "better map",
+    "complex map"
+  ],
+  "author": "Benjamin Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haliaeetus/serialised-key-map/issues"
+  },
+  "homepage": "https://github.com/haliaeetus/serialised-key-map#readme",
+  "dependencies": {
+    "jest": "^23.6.0"
+  }
+}
