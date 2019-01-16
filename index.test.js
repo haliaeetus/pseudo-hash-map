@@ -17,12 +17,13 @@ test('duplicate key', () => {
 
     expect(map.size).toBe(4)
     expect(map.get([4, 20])).toEqual('plant')
+    expect(map.has([13, 37])).toBe(true)
     expect(map.get([13, 37])).toEqual('super epic shield')
 
     map.delete([13, 37])
 
     expect(map.size).toBe(3)
-    expect(map.has([13, 37])).toEqual(false)
+    expect(map.has([13, 37])).toBe(false)
 
     expect(map.size).toBe(3)
 })
